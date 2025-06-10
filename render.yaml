@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dvwa
+    env: docker
+    repo: https://github.com/bebaselang/Vulnerweb
+    branch: main
+    plan: free
